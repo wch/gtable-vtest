@@ -1,0 +1,31 @@
+"resultset_hash","context","desc","type","width","height","dpi","err","hash","order","expr","errmsg"
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","grobs, no justification","pdf",4,4,NA,"ok","0cb6eea05753dfe66beaece587a8a094",1,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","justification by specifying 'just' in grobs","pdf",4,4,NA,"ok","d17d26862c736c5d42f5319c7fd5203a",2,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt_just)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","justification by specifying 'vp' in grobs","pdf",4,4,NA,"ok","ba79780e1ca74c5da996a31ef880aa6f",3,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt_vp)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","Justification by wrapping grobs in gTree and setting 'vp' in gTree","pdf",4,4,NA,"ok","ba79780e1ca74c5da996a31ef880aa6f",4,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt_gtvp)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","gtable in gtable, no justification","pdf",4,4,NA,"ok","11a9dc51730474c21bbb8f6e19feceaa",5,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt_outer)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","gtable in gtable, justification by specifying 'vp' in inner gtable","pdf",4,4,NA,"ok","5e8c8d5c4d6f1c3e5d96220d4d0ebba2",6,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt_outer_vp)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","inner gtable not nested, justification by specifying 'vp'","pdf",4,4,NA,"ok","87af6a236348e4ea5a775c19ccdea012",7,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt_inner_vp)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","Justification","gtable in gtable with text, justification by specifying 'vp' in inner gtable","pdf",4,4,NA,"ok","b7634481123b55826c9eea52eb5213fd",8,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt_outer_vptext)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","z-order","overlapping circles, default z-order (lighter is higher)","pdf",4,4,NA,"ok","373c388b709344c03b6c4357f8f445aa",1,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt)",NA
+"1cee21f61918ee7f3cfb71f4d10cdda3","z-order","overlapping circles, z-order 2 4 3 1","pdf",4,4,NA,"ok","b224e1d8464579067a417da79870ee63",2,"grid.newpage()
+grid.draw(gtf)
+grid.draw(gt)",NA
